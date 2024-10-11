@@ -1,10 +1,10 @@
 # Dr.SLAM - SLAM Engineer's Knowledge Base
 
-A personal wiki and blog focused on Simultaneous Localization and Mapping (SLAM) for engineers. Built using MarkDeep for simplicity and content-first approach.
+A personal wiki and blog focused on Simultaneous Localization and Mapping (SLAM) for engineers. Built using Markdeep for simplicity and content-first approach.
 
 ## Features
 - In-depth articles on SLAM principles (and related topics), methods, and theory
-- Lightweight and fast-loading pages powered by MarkDeep
+- Lightweight and fast-loading pages powered by Markdeep
 
 ## Purpose
 - Personal knowledge refinement
