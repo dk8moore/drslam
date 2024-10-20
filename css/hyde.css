@@ -1,0 +1,75 @@
+/* This file remains largely unchanged from your original hyde.css */
+
+.sidebar {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: rgba(255,255,255,.5);
+    background-color: #202020;
+  }
+  
+  @media (min-width: 48em) {
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 18rem;
+      text-align: left;
+    }
+  }
+  
+  .sidebar a {
+    color: #fff;
+  }
+  
+  .sidebar-about h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Abril Fatface", serif;
+    font-size: 3.25rem;
+  }
+  
+  .sidebar-nav {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-nav-item {
+    display: block;
+    line-height: 1.75;
+  }
+  
+  a.sidebar-nav-item:hover,
+  a.sidebar-nav-item:focus {
+    text-decoration: underline;
+  }
+  
+  .sidebar-nav-item.active {
+    font-weight: bold;
+  }
+  
+  @media (min-width: 48em) {
+    .content {
+      max-width: 38rem;
+      margin-left: 20rem;
+      margin-right: 2rem;
+    }
+  }
+  
+  @media (min-width: 64em) {
+    .content {
+      margin-left: 22rem;
+      margin-right: 4rem;
+    }
+  }
+  
+  /* Themes */
+  
+  .theme-base-08 .sidebar {
+    background-color: #ac4142;
+  }
+  .theme-base-08 .content a,
+  .theme-base-08 .related-posts li a:hover {
+    color: #ac4142;
+  }
+  
+  /* Add other color themes here if needed */

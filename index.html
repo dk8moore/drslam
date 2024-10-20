@@ -1,16 +1,43 @@
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyde - Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hyde.css">
+    <script src="js/sidebar.js"></script>
+    <script>window.markdeepOptions = {mode: 'script'};</script>
+    <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
+</head>
+<body class="theme-base-08">
+    <div class="sidebar" id="sidebar">
+    </div>
 
-# Dr.SLAM
+    <div class="content container">
+        <div class="posts">
+            <!-- Markdeep content starts here -->
+            # Welcome to Hyde
 
-Welcome to my SLAM (Simultaneous Localization and Mapping) Wiki/Blog!
+            Hyde is a brazen two-column [Jekyll](https://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](https://getpoole.com), the Jekyll butler.
 
-## Recent Articles
-- [Introduction to SLAM](articles/intro-to-slam.md.html)
-- [Feature Detection in SLAM](articles/feature-detection.md.html)
+            ## Latest Posts
 
+            * [What's Jekyll?](posts/2012-02-06-whats-jekyll.md)
+            * [Example Content](posts/2012-02-07-example-content.md)
+            * [Introducing Hyde](posts/2013-12-28-introducing-hyde.md)
 
-<!-- Markdeep: -->
-<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
-<link rel="stylesheet" href="css/custom.css">
-<script src="js/markdeep.min.js"></script>
-<script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+            <!-- Markdeep content ends here -->
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', function() {
+            var content = document.getElementById('markdeep-content').innerHTML;
+            var formatted = markdeep.format(content);
+            document.querySelector('.content.container').innerHTML = formatted;
+        });
+    </script>
+    
+</body>
+</html>
