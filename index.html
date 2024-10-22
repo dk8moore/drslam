@@ -7,37 +7,21 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/hyde.css">
     <script src="js/sidebar.js"></script>
-    <script>window.markdeepOptions = {mode: 'script'};</script>
-    <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
-</head>
 <body class="theme-base-08">
     <div class="sidebar" id="sidebar">
+        <!-- Sidebar content -->
     </div>
 
-    <div class="content container">
-        <div class="posts">
-            <!-- Markdeep content starts here -->
-            # Welcome to Hyde
 
-            Hyde is a brazen two-column [Jekyll](https://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](https://getpoole.com), the Jekyll butler.
-
-            ## Latest Posts
-
-            * [What's Jekyll?](posts/2012-02-06-whats-jekyll.md)
-            * [Example Content](posts/2012-02-07-example-content.md)
-            * [Introducing Hyde](posts/2013-12-28-introducing-hyde.md)
-
-            <!-- Markdeep content ends here -->
-        </div>
+<div class="content container" style="position: relative; z-index: 1;">
+    <div class="posts">
+        <!-- Include pre-rendered HTML via iframe -->
+        <iframe src="articles/example.html" id="contentFrame"></iframe>
     </div>
+</div>
 
-    <script>
-        window.addEventListener('load', function() {
-            var content = document.getElementById('markdeep-content').innerHTML;
-            var formatted = markdeep.format(content);
-            document.querySelector('.content.container').innerHTML = formatted;
-        });
-    </script>
     
+
+
 </body>
 </html>

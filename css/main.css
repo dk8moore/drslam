@@ -134,3 +134,9 @@
     color: #717171;
     background-color: #f9f9f9;
   }
+
+  iframe {
+    width: 100%;
+    height: 100vh; /* Makes the iframe occupy the full height of the viewport */
+    border: none;
+}
